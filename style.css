@@ -34,7 +34,13 @@ body{
 }
 
 p{
-  padding:0.5rem 0;
+  padding:0.5rem 10px;
+}
+
+a:hover{
+  color: blueviolet;
+  text-decoration: underline;
+  transition: all ease 2s;
 }
 
 nav{
@@ -75,10 +81,14 @@ h1{
   font-size: calc(2rem + 5vw); 
   font-family: montserrat-;
   color: #572364;
+  padding-bottom: 0.5rem 50px;
 }
 
 h2{
   font-size: calc(1rem + 2vw);
   font-family: montserrat-;
   color: #Db92b8;
+  padding-bottom: 0.5rem 30px;
+  padding-left: 0.5rem 10px;
 }
+
